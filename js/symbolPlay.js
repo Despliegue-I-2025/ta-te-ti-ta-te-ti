@@ -1,4 +1,3 @@
-
 //Funcion que recorre todos los simbolos del tablero de entrada,
 //  cuenta las apariciones de cada simbolo y 
 // retorna el simbolo con el que debe jugar el bot
