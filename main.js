@@ -4,7 +4,7 @@ import boardIsCorrect from "./js/boardIsCorrect.js";
 import symbolPlay from "./js/symbolPlay.js";
 
 const app = express();
-const PORT = 3000;
+const PORT = 3014;
 
 // GET /move?board=[0,1,0,2,0,0,0,0,0]
 app.get('/move', (req, res) => {
@@ -43,7 +43,7 @@ app.get('/move', (req, res) => {
     return res.json({
         simbolo: symbol,
         tableroOriginal: originalBoard,
-        jugada: bestMove,
+        movimiento: bestMove,
         tableroNuevo: board
     });
 });
